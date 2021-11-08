@@ -1,0 +1,68 @@
+{
+  "guests": [
+    {
+      "name": "John Stamos",
+      "age": 58,
+      "favoriteDish": "Sweet Potatoes",
+      "rightHanded": true,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRswV8rkX_9XlysOOUTijtVzzLvvpGHynHcQQ&usqp=CAU",
+      "id": 1
+    },
+    {
+      "name": "James Bond",
+      "age": 40,
+      "favoriteDish": "Shaken Dirties",
+      "rightHanded": false,
+      "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/3/2020/12/daniel-craig-bond-1d24ba1.jpg?webp=true&quality=90&resize=620%2C413",
+      "id": 2
+    },
+    {
+      "name": "Adele",
+      "age": 33,
+      "favoriteDish": "Sweet Potatoes",
+      "rightHanded": false,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhGQRcW2nVnJNW7rQOayUs5zvVYlqLkZMJIg&usqp=CAU",
+      "id": 3
+    },
+    {
+      "name": "Gamora",
+      "age": 43,
+      "favoriteDish": "Green Beans",
+      "rightHanded": true,
+      "imageUrl": "https://img.republicworld.com/republic-prod/stories/promolarge/xhdpi/xjdlfr80xxtmixfp_1623136338.jpeg",
+      "id": 4
+    },
+    {
+      "name": "Loki",
+      "age": 1054,
+      "favoriteDish": "Mashed Potatoes",
+      "rightHanded": true,
+      "imageUrl": "https://cdn.vox-cdn.com/thumbor/9Orx0410-TTXgLgXYHqIi-Mlyyc=/0x0:2400x1800/920x613/filters:focal(1005x406:1389x790):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/69425107/663e42ea854787448bb3502c95ce32a5.0.jpg",
+      "id": 5
+    },
+    {
+      "name": "Peter Quill",
+      "age": 42,
+      "favoriteDish": "Tater Tots",
+      "rightHanded": true,
+      "imageUrl": "https://imgix.pedestrian.tv/content/uploads/2020/12/15/quill3.jpg?ar=16%3A9&auto=format&crop=focal&fit=crop&q=80&w=1200&nr=20",
+      "id": 6
+    },
+    {
+      "name": "Rocket Raccoon",
+      "age": 10,
+      "favoriteDish": "Trash",
+      "rightHanded": true,
+      "imageUrl": "https://static3.cbrimages.com/wordpress/wp-content/uploads/2019/02/Rocket-Raccoon-Guardians-of-the-Galaxy.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5",
+      "id": 7
+    },
+    {
+      "name": "Drax the Destoyer",
+      "age": 500,
+      "favoriteDish": "Corn Pudding",
+      "rightHanded": true,
+      "imageUrl": "https://theplaylist.net/wp-content/uploads/2021/05/Drax-mantis-movie-Dave-Bautista-wont-play-drax-anymore-750x400.jpg",
+      "id": 8
+    }
+  ]
+}

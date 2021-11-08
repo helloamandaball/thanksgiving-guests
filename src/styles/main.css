@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+
+/*Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+	color: #404040;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Patua One", serif;
+  letter-spacing: 2px;
+}
+
+.guestListContainer {
+	border: 1px solid orange;
+	padding: 20px;
+}
+
+.guestImgContainer {
+	width: 200px;
+	height: 110px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.guestImg {
+	width: 210px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.guestListForm {
+	border: 1px dashed goldenrod;
+	background-color: rgb(245, 241, 229);
+	width: 70%;
+	padding: 0px 20px;
+	margin: 0 auto 30px;
+}
+
+.guestFormContainer {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-bottom: 12px;
+	width: 100%;
+}
+
+.guestListCard ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.guestListCard {
+	border: 1px solid yellowgreen;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+.guestListArea{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 95vw;
+	gap: 5px;
+}
+
+
+/* Buttons */
+.saveGuestBtn {
+	display: block;
+	font-size: 16px;
+	background-color: orangered;
+	border: none;
+	color: white;
+	width: 150px;
+	height: 30px;
+	margin: 10px 0px 10px auto;
+
+}
+
+#saveGuest:hover {
+	background-color: orange;
+}
+
+#imageUploadBtn {
+	font-size: 12px;
+	color: white;
+	background-color: coral;
+	border: none;
+	padding: 3px 5px;
+}
+
+#imageUploadBtn:hover {
+	background-color: orange;
+}
