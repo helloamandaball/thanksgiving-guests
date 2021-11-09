@@ -20,19 +20,21 @@ export const GuestForm = () => {
         </div>
     `
 }
+//^^image can actually be a input type="text" since it's adding the url into the guest array and it should automatically add the image like it did for the sample array we started with (john, james, and adele)^^
 
 document.querySelector("body").addEventListener("click", clickEvent => {
     if (clickEvent.target.id === "saveGuest") {
-// Used the JSON.parse() around the document.querySelector("#id").value because the boolean value was adding answer as a string (putting it in quotation marks "") in the db.json instead of a regular answer/value
+            // Used the JSON.parse() around the document.querySelector("#id").value because the boolean value was adding answer as a string (putting it in quotation marks "") in the db.json instead of an integer for age or bolean (true/false) for rightHanded. or just add a + (plus sign) in front of the document.querySelector. Example:  age: +document.querySelector("#age").value,
             const newGuest = {
                 name: document.querySelector("#name").value,
-                age: JSON.parse(document.querySelector("#age").value),
+                age: +document.querySelector("#age").value,
                 favoriteDish: document.querySelector("#favoriteDish").value,
                 rightHanded: JSON.parse(document.querySelector("#guestRH").value),   
                 imageUrl: document.querySelector("#imageUrl").value         
             }
             console.log(newGuest)
 
+            //Below clears the fields after saving
             document.querySelector("#name").value = ""
             document.querySelector("#age").value = ""
             document.querySelector("#favoriteDish").value = ""

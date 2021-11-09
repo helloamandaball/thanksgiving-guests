@@ -18,23 +18,6 @@ export const GuestCard = (guest) => {
     `
 }
 
-// function placeSetting(guestListObject){
-//     let htmlRepresentation = ""
-//     for (let singleGuestObject in guestListObject){
-//         if (guestListObject[singleGuestObject] === true){
-//             let htmlString = `${singleGuestObject}`
-//             htmlRepresentation += htmlString
-//         }
-//         // else {
-//         //     if (singleGuestObject.rightHanded === false){
-//         //         let htmlString = `Left Handed`
-//         //         htmlRepresentation += htmlString
-//         //     }
-//         // }
-//     }
-//     return htmlRepresentation
-// }
-
 const placeSetting = (boolean) => {
     if (boolean == true) {
         return `Right`
@@ -44,3 +27,6 @@ const placeSetting = (boolean) => {
         return `Left`
     }
 }
+
+// Or in line 12 could be the code below and then it wouldn't need the function placeSetting: 
+    // ${guest.rightHanded ? `<p><strong>Place setting:</strong> Right</p>` : `<p><strong>Place setting:</strong> Left</p>}
