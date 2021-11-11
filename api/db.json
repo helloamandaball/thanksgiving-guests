@@ -9,12 +9,12 @@
       "id": 1
     },
     {
+      "id": 2,
       "name": "James Bond",
       "age": 40,
       "favoriteDish": "Shaken Dirties",
       "rightHanded": false,
-      "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/3/2020/12/daniel-craig-bond-1d24ba1.jpg?webp=true&quality=90&resize=620%2C413",
-      "id": 2
+      "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/3/2020/12/daniel-craig-bond-1d24ba1.jpg?quality=90&resize=620,413"
     },
     {
       "name": "Adele",
@@ -63,6 +63,30 @@
       "rightHanded": true,
       "imageUrl": "https://theplaylist.net/wp-content/uploads/2021/05/Drax-mantis-movie-Dave-Bautista-wont-play-drax-anymore-750x400.jpg",
       "id": 8
+    },
+    {
+      "name": "lefty",
+      "age": 23,
+      "favoriteDish": "pie",
+      "rightHanded": false,
+      "imageUrl": "https://hardtargetsystems.com/wp-content/uploads/sites/6/2016/04/fpo-image.png",
+      "id": 10
+    },
+    {
+      "id": 11,
+      "name": "righty",
+      "age": 12,
+      "favoriteDish": "peas",
+      "rightHanded": true,
+      "imageUrl": "https://hardtargetsystems.com/wp-content/uploads/sites/6/2016/04/fpo-image.png"
+    },
+    {
+      "id": 12,
+      "name": "shania twain (lefty)",
+      "age": 60,
+      "favoriteDish": "brussels sprouts",
+      "rightHanded": true,
+      "imageUrl": "https://pbs.twimg.com/profile_images/2317326635/3kglmsqti3msjlb1nr60.png"
     }
   ]
 }
