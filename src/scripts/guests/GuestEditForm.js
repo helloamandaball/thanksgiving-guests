@@ -38,7 +38,7 @@ eventHub.addEventListener("click", (event) => {
             name: document.querySelector("#name").value,
             age: +document.querySelector("#age").value,
             favoriteDish: document.querySelector("#favoriteDish").value,
-            rightHanded: JSON.parse(document.querySelector("#guestRH").value),
+            rightHanded: JSON.parse(document.querySelector("#guestRH").checked),
             imageUrl: document.querySelector("#imageUrl").value
         }
         console.log(editedGuest)
