@@ -27,8 +27,10 @@ document.querySelector("body").addEventListener("click", clickEvent => {
             // Used the JSON.parse() around the document.querySelector("#id").value because the boolean value was adding answer as a string (putting it in quotation marks "") in the db.json instead of an integer for age or bolean (true/false) for rightHanded. or just add a + (plus sign) in front of the document.querySelector. Example:  age: +document.querySelector("#age").value,
             const newGuest = {
                 name: document.querySelector("#name").value,
+                //+ sign is short hand for INT.parse() used for changing strings (ex: "3") into integers (ex: 3)
                 age: +document.querySelector("#age").value,
                 favoriteDish: document.querySelector("#favoriteDish").value,
+                //JSON.parse is similar to adding .json() at the end of a paramater.
                 rightHanded: JSON.parse(document.querySelector("#guestRH").checked),   
                 imageUrl: document.querySelector("#imageUrl").value         
             }
