@@ -23,3 +23,20 @@ export const saveGuest = (guest) => {
     })
     .then(getGuestList)
 }
+
+export const deleteGuest = guestId => {
+    return fetch(`http://localhost:8088/guests/${guestId}`, {
+        method: "DELETE"
+    })
+    .then(getGuestList)
+}
+
+export const updateGuest = guest => {
+    return fetch(`http://localhost:8088/guests/${guest.id}`, {
+        method: "PUT",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(guest)
+    })
+}

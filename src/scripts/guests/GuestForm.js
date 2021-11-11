@@ -10,11 +10,11 @@ export const GuestForm = () => {
             <input type="text" id="favoriteDish" placeholder="Enter Guest's Favorite Food"> 
             <div>
                 <p><strong>Place setting:</strong> &nbsp;
-                <input type="checkbox" id="guestRH" name="guestRH" value="true"><label for="guestRH">Right Handed</label> &nbsp;
-                <input type="checkbox" id="guestLH" name="guestLH" value="false"><label for="guestLH">Left Handed</label></p>
+                <input type="checkbox" id="guestRH" name="guestRH"><label for="guestRH">Right Handed</label> &nbsp;
+                </p>
             </div>
             <div class ="guestImageUpload>
-                <label for="imageUrl"><strong>Add Photo:</strong>&nbsp;&nbsp;</label> <input type="url" id="imageUrl" name="imageUrl" placeholder="Insert image URL here"> <input type="button" value="Save Image URL" id="imageUploadBtn"/>
+                <label for="imageUrl"><strong>Add Photo:</strong>&nbsp;&nbsp;</label> <input type="url" id="imageUrl" name="imageUrl" placeholder="Insert image URL here"> <!--<input type="button" value="Save Image URL" id="imageUploadBtn"/> -->
             </div>
             <button id="saveGuest" class="saveGuestBtn">Save</button>
         </div>
@@ -29,7 +29,7 @@ document.querySelector("body").addEventListener("click", clickEvent => {
                 name: document.querySelector("#name").value,
                 age: +document.querySelector("#age").value,
                 favoriteDish: document.querySelector("#favoriteDish").value,
-                rightHanded: JSON.parse(document.querySelector("#guestRH").value),   
+                rightHanded: JSON.parse(document.querySelector("#guestRH").checked),   
                 imageUrl: document.querySelector("#imageUrl").value         
             }
             console.log(newGuest)
